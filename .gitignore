@@ -33,3 +33,7 @@ Thumbs.db
 
 # Docker
 *.log
+
+#Github Actions
+.github/workflows.disabled/
+
