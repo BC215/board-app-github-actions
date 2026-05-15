@@ -53,7 +53,7 @@ export default function PostList() {
         <h1 className="page-title">게시판</h1>
         {isLoggedIn && (
           <button className="btn btn-primary" onClick={() => navigate('/posts/new')}>
-            ✏️ 글쓰기쓰기
+            ✏️ 글쓰기
           </button>
         )}
       </div>
@@ -67,7 +67,7 @@ export default function PostList() {
           value={searchInput}
           onChange={e => setSearchInput(e.target.value)}
         />
-        <button type="submit" className="btn btn-primary">검색</button>
+        <button type="submit" className="btn btn-primary">검색하지마</button>
         {keyword && (
           <button type="button" className="btn btn-outline"
             onClick={() => { setSearchInput(''); setKeyword(''); setPage(0) }}>
