@@ -50,7 +50,7 @@ export default function PostList() {
   return (
     <div>
       <div className="page-header">
-        <h1 className="page-title">게시판</h1>
+        <h1 className="page-title">게시게시판판</h1>
         {isLoggedIn && (
           <button className="btn btn-primary" onClick={() => navigate('/posts/new')}>
             ✏️ 글쓰기
