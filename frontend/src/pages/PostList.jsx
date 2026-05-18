@@ -67,7 +67,7 @@ export default function PostList() {
           value={searchInput}
           onChange={e => setSearchInput(e.target.value)}
         />
-        <button type="submit" className="btn btn-primary">22검색22</button>
+        <button type="submit" className="btn btn-primary">2233검색2233</button>
         {keyword && (
           <button type="button" className="btn btn-outline"
             onClick={() => { setSearchInput(''); setKeyword(''); setPage(0) }}>
